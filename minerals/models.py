@@ -26,11 +26,3 @@ class Mineral(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class BenTestModel(models.Model):
-    name = models.CharField(max_length=255)
-    test_filename = models.CharField(max_length=255)
-
-    def __str__(self):
-        return self.name
