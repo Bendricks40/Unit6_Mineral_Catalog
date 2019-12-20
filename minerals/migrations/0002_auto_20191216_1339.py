@@ -7,14 +7,16 @@ from minerals.models import Mineral
 
 #Openfile,parse,and store as dictionary:
 def mineral_loader(apps,schema_editor):
-
+    '''This function loads all the minerals data from a file when project is first set up'''
     THIS_FOLDER=os.path.dirname(os.path.abspath(__file__))
     my_file=os.path.join(THIS_FOLDER,'minerals.json')
     minerals=json.loads(open(my_file).read())
 
     for mineral in minerals:
 
-        #toodo:makethebelowmoreefficient...ThiswasjustthefirstsolutionIthoughtofwithallthetry/catchblockstoweedouttheemptyvalues
+        #Looping through each potential attribute, and if it exists, then set it to local variable,
+        # if not, set that attribute as a blank string. THis was just a first pass attempt, there
+        # is probably a simpler way to do this as a future improvement!
         try:
             name=mineral['name']
         except:
