@@ -6,6 +6,6 @@ from . import views
 app_name= "minerals"
 
 urlpatterns = [
-    path('', views.mineral_list),
+    path('', views.mineral_list, name='list'),
     path('<int:pk>/', views.mineral_detail, name='detail'),
 ]

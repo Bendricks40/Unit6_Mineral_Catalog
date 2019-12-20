@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09ba3e4e-8a36-4952-a33e-67987756b504" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minerals/templates/minerals/mineral_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/minerals/templates/minerals/mineral_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minerals/templates/minerals/mineral_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/minerals/templates/minerals/mineral_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minerals/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/minerals/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minerals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/minerals/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
